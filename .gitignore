@@ -136,3 +136,15 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# Not csv files
+*.csv
+
+# Not pkl files
+*.pkl
+
+# Not report file
+report.txt
+
+# Not png images
+*.png
