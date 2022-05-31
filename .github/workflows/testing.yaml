@@ -2,7 +2,7 @@ name: Testing API
 on: [push, pull_request]
 jobs:
   testing_api:
-    runs_on: ubuntu_latest
+    runs-on: ubuntu_latest
     env:
       SERVICE_ACCOUNT_KEY: ${{ secrets.SERVICE_ACCOUNT_KEY }}
     steps:
