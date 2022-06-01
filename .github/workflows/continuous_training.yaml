@@ -11,7 +11,7 @@ on:
         description: why does this run?
         required: false
         default: running CT
-job:
+jobs:
   continuous-training:
     runs-on: ubuntu-latest
     steps:
