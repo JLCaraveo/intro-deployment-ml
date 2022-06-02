@@ -24,7 +24,7 @@ def save_simple_metrics_report(train_score: float, test_score: float, validation
     model: Working model
     """
     with open('report.txt', 'w') as report_file:
-        report_file.write('# Model Pipeline description')
+        report_file.write('# Model Pipeline description\n')
 
         for key, value in model.named_steps.items():
             report_file.write(f'### {key}:{value.__repr__()}\n')
