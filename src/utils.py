@@ -21,7 +21,7 @@ def save_simple_metrics_report(train_score: float, test_score: float, validation
     train_score: model train score (float)
     test_score: model test score (float)
     validation_score: model validation score (float)
-    model: Working model
+    model: Working model.
     """
     with open('report.txt', 'w') as report_file:
         report_file.write('# Model Pipeline description\n')
